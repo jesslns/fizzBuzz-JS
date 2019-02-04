@@ -31,3 +31,11 @@ Fizzbuzz.prototype.play = function(number) {
 Fizzbuzz.prototype._isDivisibleBy = function(number, divisor) {
   return (number%divisor === 0);
 };
+
+
+
+var fizzbuzz = new Fizzbuzz();
+
+for (var i = 1; i <= 100; i++) {
+  console.log(fizzbuzz.play(i));
+}
